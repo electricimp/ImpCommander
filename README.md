@@ -5,7 +5,7 @@ The helper script to perform bulk Imp device operations.
 
 ## Requirements
 
-The script requires Python 3.
+The script requires Python 3.0+
 
 ## Usage
 
