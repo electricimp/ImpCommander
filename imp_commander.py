@@ -17,7 +17,7 @@ IMP_AGENT_URL = "https://agent.electricimp.com/{}?{}"
 
 def usage():
     print "Usage:                                                                                       \n" \
-          "imp-commander ( -L                                                                           \n" \
+          "imp_commander ( -L                                                                           \n" \
           "              | -l --model=<model-name>                                                      \n" \
           "              | -p --model=<model-name> --agent=<agent-file> --device=<device-file>          \n" \
           "              | -m --model=<model-name> --device_ids-file=<device-ids>)                      \n" \
