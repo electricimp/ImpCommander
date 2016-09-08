@@ -14,12 +14,13 @@ Please define BUILD_API_KEY constant with your Electric Imp Build API Key.
 ### Command Line Options
 
 ```
-Usage: imp-cli (   -L
-                 | -l --model=<model-name>
-                 | -p --model=<model-name> --agent=<agent-file> --device=<device-file>
-                 | -m --model=<model-name> --device_ids-file=<device-ids>)
-                 | -M --model=<model-name>
-                 | -c --model=<model-name> --query=<query>
+Usage:
+imp-commander ( -L
+              | -l --model=<model-name>
+              | -p --model=<model-name> --agent=<agent-file> --device=<device-file>
+              | -m --model=<model-name> --device_ids-file=<device-ids>
+              | -M --model=<model-name>
+              | -c --model=<model-name> --query=<query> )
   Where command options are:
     -L: list all the unassigned device ids
     -l: list all the device ids for the model specified

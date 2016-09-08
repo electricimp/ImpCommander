@@ -16,12 +16,13 @@ IMP_AGENT_URL = "https://agent.electricimp.com/{}?{}"
 
 
 def usage():
-    print "Usage: imp-cli (   -L                                                                        \n" \
-          "                 | -l --model=<model-name>                                                   \n" \
-          "                 | -p --model=<model-name> --agent=<agent-file> --device=<device-file>       \n" \
-          "                 | -m --model=<model-name> --device_ids-file=<device-ids>)                   \n" \
-          "                 | -M --model=<model-name>                                                   \n" \
-          "                 | -c --model=<model-name> --query=<query>                                   \n" \
+    print "Usage:                                                                                       \n" \
+          "imp-commander ( -L                                                                           \n" \
+          "              | -l --model=<model-name>                                                      \n" \
+          "              | -p --model=<model-name> --agent=<agent-file> --device=<device-file>          \n" \
+          "              | -m --model=<model-name> --device_ids-file=<device-ids>)                      \n" \
+          "              | -M --model=<model-name>                                                      \n" \
+          "              | -c --model=<model-name> --query=<query>                                      \n" \
           "  Where command options are:                                                                 \n" \
           "    -L: list all the unassigned device ids                                                   \n" \
           "    -l: list all the device ids for the model specified                                      \n" \
