@@ -1,5 +1,7 @@
-Helper script to perform bulk Imp device operations
+ImpCommander
 =================================
+
+The helper script to perform bulk Imp device operations.
 
 ## Requirements
 
@@ -11,6 +13,7 @@ Please define BUILD_API_KEY constant with your Electric Imp Build API Key.
 
 ### Command Line Options
 
+```
 Usage: imp-cli (   -L
                  | -l --model=<model-name>
                  | -p --model=<model-name> --agent=<agent-file> --device=<device-file>
@@ -24,4 +27,4 @@ Usage: imp-cli (   -L
     -m: move the specified devices to the model
     -M: move all the unassigned devices to the model
     -c: do HTTP request to all the agents of the specified model with the query specified
-
+```
