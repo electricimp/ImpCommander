@@ -14,7 +14,7 @@ import sys
 
 import requests
 
-BUILD_API_KEY = "09fc8b113fdcadcdff868daacf875017"
+BUILD_API_KEY = ""
 BUILD_API_URL = "https://build.electricimp.com/v4/"
 IMP_AGENT_URL = "https://agent.electricimp.com/{}?{}"
 
