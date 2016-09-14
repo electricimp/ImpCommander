@@ -203,7 +203,7 @@ def call_agents(model_name, query):
 def main(args):
     opts = None
     try:
-        opts, args = getopt.getopt(args, "lLpmMc", ["model=", "agent=", "device=", "device_ids-file=", "command="])
+        opts, args = getopt.getopt(args, "lLpmMc", ["model=", "agent=", "device=", "device_ids-file=", "query="])
     except getopt.GetoptError as err:
         print str(err)
         usage()
