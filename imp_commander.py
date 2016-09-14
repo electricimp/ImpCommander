@@ -71,7 +71,7 @@ def __get_model_device_ids(model_name):
             print("Found no model with name: " + model_name)
 
     else:
-        print("Request to list models failed: " + response.status_code)
+        print("Request to list models failed: " + str(response.status_code))
 
     return device_ids
 
